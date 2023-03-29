@@ -1,0 +1,306 @@
+/* General Styles */
+body {
+    background: linear-gradient(to bottom, #2a59f3, #eb43c7);
+	font-family: Arial, sans-serif;
+  color: white;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+#home img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  border-radius: 20%;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Background Animation */
+body {
+    animation: move-background 5s linear infinite;
+  }
+  
+  @keyframes move-background {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  } 
+  
+  @media (max-width: 768px) {
+    #home {
+      background-size: 100% 100%;
+    }
+  }
+  
+
+/* Header Styles */
+header {
+	background-color: #4b67e0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}   
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #5198e8;
+}
+
+/* Main Styles */
+main {
+	margin-top: 60px;
+}
+
+section {
+	margin: 50px auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+section ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+section ul li {
+	margin: 0 20px 20px;
+	width: 200px;
+}
+
+section ul li a {
+	display: block;
+}
+
+button {
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+}
+
+button:hover {
+	background-color: #0069d9;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	width: 100%;
+}
+
+form input:focus,
+form textarea:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form input[type="submit"] {
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+}
+
+form input[type="submit"]:hover {
+	background-color: #0069d9;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #c143eb;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	bottom: 0;
+	padding: 1px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+#social {
+    padding: 50px 0;
+  }
+  
+  #social h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #social-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 500px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .post-header p {
+    margin: 0 0 0 auto;
+    font-size: 14px;
+  }
+  
+  .post-content {
+    font-size: 16px;
+  }
+
+/* HATO */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff9900;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #ff9900;
+  border: none;
+  border-radius: 5px;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #f77f00;
+}
