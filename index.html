@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ahmad Kamal Ariffin Personal Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-Dw2nUGoOks1sTUhpKV3sszPc9sK0N9TtRnOQRhDfqpjLd/13aIcCk8pPaWzgDRvu" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul> 
+		</nav>
+	</header>
+	<main>
+		<section id="home" class="section">
+      <img src="images/Gambar.jpg" alt="My Picture">
+			<h1>Welcome to My Website</h1>
+			<p>This is a brief introduction to my personal website.</p>
+			<button onclick="greet()">Say Hello!</button>
+		</section>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>I am a Integrity Executive in Media Prima Berhad. I specialize in organisation Complience, Integrity, Governance and Internal Audit.</p>
+		</section>
+		<section id="skills">
+			<h2>My Skills</h2>
+			<ul>
+				<li>ISO</li>
+				<li>Employee/Employer complience</li>
+				<li>Integrity</li>
+				<li>Internal Audit</li>
+				<li>Basic Web Development</li>
+				<li>Blockchain</li>
+			</ul>
+		</section>
+		<section id="portfolio">
+			<h2>My Portfolio</h2>
+			<ul>
+				<li><a href="HATO.html">HATO Decentralise Media Social Platform</a></li>
+				<li><a href="KTHB.html">KTH Blockchain</a></li>
+				<li><a href="#">To be Announce</a></li>
+			</ul>
+		</section>
+
+        <!-- Social media post section -->
+        <section id="social-media">
+            <div class="container">
+            <h2>My Social Media Posts</h2>
+            <div class="row">
+                <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">A Guide for Malaysian Startups: Navigating Decentralized Networks and Complying with Regulations.</h5>
+                    <p class="card-text">Post Description</p>
+                    <a href="https://medium.com/@realahmadkamal/a-guide-for-malaysian-startups-navigating-decentralized-networks-and-complying-with-regulations-cd726ecb3e5c" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">How Blockchain Technology can Revolutionise Corporate Governance in Malaysia</h5>
+                    <p class="card-text">Post Description</p>
+                    <a href="https://medium.com/@realahmadkamal/how-blockchain-technology-can-revolutionise-corporate-governance-in-malaysia-7c7d5cbb383b" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+            
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" placeholder="Enter your message"></textarea><br><br>
+				<input type="submit" value="Send">
+                <p>New Project Coming Soon</p>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Ahmad Kamal Ariffin Personal Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
